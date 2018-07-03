@@ -2,7 +2,7 @@ Trump face block
 ===
 
 Detect a face of Donal Trump on images while browsing the Web and block it. Kind of like this:
-![alt text](https://github.com/shoniko/trumpblock/blob/master/icons/detailed/trumpblock.jpg Blocked Trump face)
+![Blocked Trump face](https://github.com/shoniko/trumpblock/blob/master/icons/detailed/trumpblock.jpg "Blocked Trump face")
 
 While browsing all the faces are extracted and compared to `icons/detailed/Donald_Trump_official_portrait.jpg`, if a match is significant enough - `icons/detailed/Carrot-128a.png` is drawn on top of the face.
 
