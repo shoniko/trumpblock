@@ -16,8 +16,7 @@
         "38": "icons/carrot-38.png", 
         "40": "icons/carrot-40.png"
       }, 
-      "default_popup": "popup.html", 
-      "default_title": "TrumpBlock"
+      "default_title": "Trump Face Block"
     }, 
     "content_scripts": [
       {
@@ -33,7 +32,7 @@
         "run_at": "document_end"
       }
     ], 
-    "description": "Block Trump face", 
+    "description": "Detect and block face of Donald Trump on the Web", 
     "icons": {
       "128": "icons/detailed/carrot-128.png", 
       "16": "icons/carrot-16.png", 
@@ -43,15 +42,10 @@
     }, 
     "manifest_version": 2, 
     "minimum_chrome_version": "49.0",
-    "name": "TrumpBlock", 
+    "name": "Trump Face Block", 
     "permissions": [
-      "tabs", 
-      "<all_urls>",
-      "webNavigation", 
-      "storage", 
-      "unlimitedStorage", 
-      "notifications"
+      "tabs"
     ], 
-    "short_name": "TrumpBlock", 
-    "version": "3.1"
+    "short_name": "Trump Face Block", 
+    "version": "0.1"
   }
